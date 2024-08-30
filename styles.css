@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h1{
+  padding: 20px;
+  color: #FAFAD2;
+}
+
+body{
+  background-color: #466060;
+  text-align: center;
+}
+
+.container{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 2px rgba(0,0,0,0.4);
+  font-size: 8vmin;
+  color: #0E0F19;
+  background-color: #F8C7CC;
+  cursor: pointer;
+}
+
+.box:hover{
+  background-color: #c9848b;
+}
+
+#reset{
+  padding: 1rem;
+  border-radius: 15px; 
+  font-size: 1.25rem;
+  background-color: #0E0F19;
+  color: #F8C7CC;
+  border: none;
+  cursor: pointer;
+} 
+#reset:hover{
+  background-color: #383a51;
+  border:2px solid #F8C7CC;
+}
+
+#newbtn{
+  padding: 1rem;
+  border-radius: 15px; 
+  font-size: 1.25rem;
+  background-color: #0E0F19;
+  color: #F8C7CC;
+  border: none;
+  cursor: pointer;
+}
+
+#newbtn:hover{
+  background-color: #383a51;
+  border:2px solid #F8C7CC;
+
+}
+
+#msg{
+  color: #F8C7CC;
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.win{
+  height: 60vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  overflow: hidden;
+}
+
+.hide{
+  display: none;
+}
+
+.noShow{
+  display: none;
+}
